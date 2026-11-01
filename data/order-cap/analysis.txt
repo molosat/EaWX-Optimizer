@@ -1,0 +1,50 @@
+Every run, in order:
+   cap16 1  mean  12.31  p99  65.64  over100  37  max  268.9  battles 6  held  153 s  other CPU 16.6%  cursor moved False
+    cand 1  mean  13.93  p99  70.67  over100  32  max  294.1  battles 1  held   28 s  other CPU 21.0%  cursor moved False
+    cand 2  mean  17.29  p99  87.01  over100  61  max  340.4  battles 2  held   52 s  other CPU 31.0%  cursor moved False
+   cap16 2  EXCLUDED: failed at step advance
+   cap16 3  mean  14.03  p99  79.77  over100  63  max  295.6  battles 7  held  179 s  other CPU 18.0%  cursor moved False
+    cand 3  mean  14.12  p99  79.38  over100  51  max  301.8  battles 2  held   54 s  other CPU 22.2%  cursor moved False
+    cand 4  mean  14.96  p99  81.83  over100  48  max  264.1  battles 2  held   54 s  other CPU 21.7%  cursor moved False
+   cap16 4  mean  14.50  p99  76.75  over100  52  max  267.9  battles 8  held  203 s  other CPU 21.5%  cursor moved False
+
+Run means by arm (95% interval):
+   cap16 n=3  mean 13.61 +- 2.86  p95 44.60 +- 7.67  p99 74.05 +- 18.49  over100_pct 0.45 +- 0.32  max 277.49 +- 38.96  sim 0.79 +- 0.08  held_s 178.24 +- 61.47  battles 7.00 +- 2.48
+    cand n=4  mean 15.07 +- 2.46  p95 46.75 +- 4.36  p99 79.72 +- 10.85  over100_pct 0.50 +- 0.26  max 300.10 +- 49.95  sim 0.82 +- 0.04  held_s 46.89 +- 20.19  battles 1.75 +- 0.80
+
+cap16 - cand (Welch, unadjusted 95% intervals):
+         mean: -1.46 [-4.08, 1.16]  p = 0.21
+          p95: -2.15 [-8.32, 4.03]  p = 0.39
+          p99: -5.67 [-20.62, 9.28]  p = 0.36
+  over100_pct: -0.04 [-0.33, 0.24]  p = 0.71
+          max: -22.61 [-70.54, 25.32]  p = 0.27
+          sim: -0.03 [-0.10, 0.03]  p = 0.24
+       held_s: +131.34 [79.46, 183.23]  p = 0.00
+      battles: +5.25 [3.14, 7.36]  p = 0.00
+
+Cap counters per game (whole game, not just the window):
+  calls 4106  held back 869 (17% of attempts: 560 service, 309 added)  exempt 2
+  calls 4032  held back 1047 (21% of attempts: 633 service, 414 added)  exempt 10
+  calls 4194  held back 872 (17% of attempts: 596 service, 276 added)  exempt 6
+
+Planets per owner at window end, mean (min-max) per arm:
+  faction                      cap16          cand
+  CHISS                    8.0 (8-8)     8.0 (8-8)
+  CORELLIA                 4.0 (4-4)     3.8 (3-4)
+  CORPORATE_SECTOR         6.0 (6-6)     5.8 (4-7)
+  EMPIRE                26.3 (26-27)  28.8 (28-29)
+  EMPIREOFTHEHAND         9.3 (9-10)    9.8 (9-10)
+  ERIADU_AUTHORITY         7.7 (7-9)     8.5 (7-9)
+  GREATER_MALDROOD      12.3 (12-13)  11.2 (10-13)
+  HAPES_CONSORTIUM         5.3 (5-6)     4.8 (4-5)
+  HUTT_CARTELS             8.0 (7-9)     8.0 (7-9)
+  INDEPENDENT_FORCES    11.7 (11-12)  11.0 (11-11)
+  KILLIK_HIVES             6.0 (6-6)     6.0 (6-6)
+  MANDALORIANS             1.0 (1-1)     1.0 (1-1)
+  NEUTRAL                  2.3 (2-3)     3.0 (3-3)
+  PENTASTAR             10.0 (10-10)    9.5 (9-10)
+  REBEL                 17.7 (16-20)  18.0 (17-19)
+  SSIRUUVI_IMPERIUM        7.0 (7-7)     6.5 (6-7)
+  WARLORDS              10.0 (10-10)    9.5 (8-10)
+  YEVETHA                  2.0 (2-2)     2.0 (2-2)
+  ZSINJ_EMPIRE          17.3 (16-19)  17.0 (15-19)

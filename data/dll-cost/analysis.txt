@@ -1,0 +1,40 @@
+Every run, in order:
+  full  1  settings -                                         mean    nan  other CPU   nan%  EXCLUDED: Command '['<local path>', '-I', '-B', '<local path>', '8
+  lean  1  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean    nan  other CPU   nan%  EXCLUDED: Command '['<local path>', '-I', '-B', '<local path>', '1
+  lean  2  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  20.50  other CPU  31.2%  zone_dll 0.1791  hooked calls/frame 2651
+  full  2  settings -                                         mean    nan  other CPU   nan%  EXCLUDED: Command '['<local path>', '-I', '-B', '<local path>', '1
+  full  3  settings -                                         mean  21.37  other CPU  37.8%  zone_dll 0.2017  hooked calls/frame 2665
+  lean  3  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  23.55  other CPU  30.3%  zone_dll 0.2102  hooked calls/frame 2630
+  lean  4  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  21.40  other CPU  29.4%  zone_dll 0.1961  hooked calls/frame 2647
+  full  4  settings -                                         mean  21.33  other CPU  31.2%  zone_dll 0.2087  hooked calls/frame 2669
+  full  5  settings -                                         mean  19.99  other CPU  31.3%  zone_dll 0.2039  hooked calls/frame 2655
+  lean  5  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  21.13  other CPU  30.0%  zone_dll 0.1873  hooked calls/frame 2660
+  lean  6  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  19.05  other CPU  29.4%  zone_dll 0.1739  hooked calls/frame 2655
+  full  6  settings -                                         mean  20.24  other CPU  31.4%  zone_dll 0.2003  hooked calls/frame 2676
+  full  7  settings -                                         mean  17.77  other CPU  33.0%  zone_dll 0.1863  hooked calls/frame 2640
+  lean  7  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  22.34  other CPU  32.0%  zone_dll 0.1993  hooked calls/frame 2642
+  lean  8  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean    nan  other CPU   nan%  EXCLUDED: Command '['<local path>', '-I', '-B', '<local path>', '9
+  full  8  settings -                                         mean  16.91  other CPU  25.6%  zone_dll 0.1703  hooked calls/frame 2667
+  full  9  settings -                                         mean  17.51  other CPU  25.3%  zone_dll 0.1699  hooked calls/frame 2637
+  lean  9  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  16.24  other CPU  28.6%  zone_dll 0.1504  hooked calls/frame 2661
+  lean 10  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  16.50  other CPU  24.6%  zone_dll 0.1535  hooked calls/frame 2653
+  full 10  settings -                                         mean  15.85  other CPU  23.7%  zone_dll 0.1632  hooked calls/frame 2660
+  full 11  settings -                                         mean  17.00  other CPU  23.8%  zone_dll 0.1738  hooked calls/frame 2640
+  lean 11  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  16.63  other CPU  24.3%  zone_dll 0.1529  hooked calls/frame 2666
+  lean 12  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  16.17  other CPU  24.9%  zone_dll 0.1545  hooked calls/frame 2659
+  full 12  settings -                                         mean  16.85  other CPU  25.8%  zone_dll 0.1715  hooked calls/frame 2646
+  full 13  settings -                                         mean  16.24  other CPU  24.8%  zone_dll 0.1639  hooked calls/frame 2664
+  lean 13  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  16.52  other CPU  23.9%  zone_dll 0.1562  hooked calls/frame 2656
+  lean 14  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  15.97  other CPU  25.0%  zone_dll 0.1502  hooked calls/frame 2664
+  full 14  settings -                                         mean  16.97  other CPU  23.6%  zone_dll 0.1736  hooked calls/frame 2647
+  full 15  settings -                                         mean  16.42  other CPU  25.1%  zone_dll 0.1697  hooked calls/frame 2640
+  lean 15  settings GpuTiming=0,DrawTiming=0,MemoryEvery=0    mean  17.46  other CPU  25.5%  zone_dll 0.1610  hooked calls/frame 2658
+
+Excluded runs: 4
+  full: n 13  frame 18.03 +- 1.19 ms  zone_dll 0.1813 +- 0.0100 ms  hooked calls/frame 2654
+  lean: n 13  frame 18.73 +- 1.64 ms  zone_dll 0.1711 +- 0.0128 ms  hooked calls/frame 2654
+
+Primary: full - lean mean frame time -0.69 ms (95% -2.62 to +1.24), t -0.74, df 21.9, p 0.465
+Cost of the DLL as the studies ran it, estimate: (full - lean) + lean zone_dll = -0.52 ms (-2.9% of the full arm's 18.03 ms frame)
+Upper bound: upper ends of both intervals = 1.42 ms (7.9%)
+Not measured: the per-call hooks (a counter increment and an extra indirect call each); the hooked-call counts above show how many there are per frame.

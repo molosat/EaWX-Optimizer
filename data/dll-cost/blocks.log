@@ -1,0 +1,83 @@
++0:00 waiting for evening and 20 idle minutes; 15 blocks
++0:00 starting; idle 218 min
++0:00 block 1: full lean
++1:05   full 1 failed
++1:05   lean 1 failed
++1:05 block 2: lean full
++1:49   lean 2 {'frames': 7795, 'p50': 8.13, 'p95': 57.71, 'p99': 96.94, 'mean': 20.5, 'over100': 73, 'max': 5157.04, 'sim': 0.75}
++1:49   full 2 failed
++1:49 block 3: full lean
++2:14   full 3 {'frames': 7630, 'p50': 9.82, 'p95': 60.06, 'p99': 109.51, 'mean': 21.37, 'over100': 92, 'max': 632.17, 'sim': 0.74}
++2:14   lean 3 {'frames': 6624, 'p50': 19.12, 'p95': 61.94, 'p99': 111.22, 'mean': 23.55, 'over100': 81, 'max': 503.22, 'sim': 0.77}
++2:14 block 4: lean full
++2:41   lean 4 {'frames': 7353, 'p50': 12.96, 'p95': 57.87, 'p99': 99.27, 'mean': 21.4, 'over100': 71, 'max': 511.91, 'sim': 0.77}
++2:41   full 4 {'frames': 7475, 'p50': 12.15, 'p95': 58.58, 'p99': 99.14, 'mean': 21.33, 'over100': 73, 'max': 475.56, 'sim': 0.76}
++2:41 block 5: full lean
++3:08   full 5 {'frames': 8156, 'p50': 8.55, 'p95': 59.07, 'p99': 94.76, 'mean': 19.99, 'over100': 65, 'max': 530.03, 'sim': 0.74}
++3:08   lean 5 {'frames': 7764, 'p50': 8.56, 'p95': 61.44, 'p99': 111.97, 'mean': 21.13, 'over100': 108, 'max': 468.36, 'sim': 0.73}
++3:08 block 6: lean full
++3:31   lean 6 {'frames': 8331, 'p50': 7.93, 'p95': 55.68, 'p99': 94.83, 'mean': 19.05, 'over100': 66, 'max': 446.55, 'sim': 0.77}
++3:31   full 6 {'frames': 7985, 'p50': 9.09, 'p95': 57.27, 'p99': 97.44, 'mean': 20.24, 'over100': 75, 'max': 532.0, 'sim': 0.75}
++3:31 block 7: full lean
++3:57   full 7 {'frames': 8629, 'p50': 7.24, 'p95': 53.56, 'p99': 88.5, 'mean': 17.77, 'over100': 53, 'max': 472.75, 'sim': 0.79}
++3:57   lean 7 {'frames': 6918, 'p50': 18.37, 'p95': 59.91, 'p99': 100.49, 'mean': 22.34, 'over100': 72, 'max': 552.81, 'sim': 0.78}
++3:57 block 8: lean full
++4:41   lean 8 failed
++4:41   full 8 {'frames': 9480, 'p50': 6.61, 'p95': 51.86, 'p99': 92.21, 'mean': 16.91, 'over100': 78, 'max': 372.12, 'sim': 0.75}
++4:41 block 9: full lean
++5:02   full 9 {'frames': 8779, 'p50': 6.72, 'p95': 53.62, 'p99': 95.71, 'mean': 17.51, 'over100': 77, 'max': 420.45, 'sim': 0.79}
++5:02   lean 9 {'frames': 9055, 'p50': 6.73, 'p95': 49.02, 'p99': 80.64, 'mean': 16.24, 'over100': 46, 'max': 396.67, 'sim': 0.82}
++5:02 block 10: lean full
++5:26   lean 10 {'frames': 9431, 'p50': 6.63, 'p95': 51.16, 'p99': 87.1, 'mean': 16.5, 'over100': 68, 'max': 382.52, 'sim': 0.78}
++5:26   full 10 {'frames': 9706, 'p50': 6.43, 'p95': 50.08, 'p99': 83.37, 'mean': 15.85, 'over100': 58, 'max': 361.64, 'sim': 0.78}
++5:26 block 11: full lean
++5:49   full 11 {'frames': 8870, 'p50': 6.65, 'p95': 50.92, 'p99': 89.23, 'mean': 17.0, 'over100': 63, 'max': 397.61, 'sim': 0.8}
++5:49   lean 11 {'frames': 9251, 'p50': 6.55, 'p95': 51.38, 'p99': 86.27, 'mean': 16.63, 'over100': 53, 'max': 409.13, 'sim': 0.79}
++5:49 block 12: lean full
++6:11   lean 12 {'frames': 9631, 'p50': 6.56, 'p95': 50.59, 'p99': 85.33, 'mean': 16.17, 'over100': 64, 'max': 435.48, 'sim': 0.77}
++6:11   full 12 {'frames': 8731, 'p50': 6.68, 'p95': 50.95, 'p99': 85.99, 'mean': 16.85, 'over100': 65, 'max': 420.27, 'sim': 0.82}
++6:11 block 13: full lean
++6:36   full 13 {'frames': 9602, 'p50': 6.53, 'p95': 50.45, 'p99': 84.04, 'mean': 16.24, 'over100': 58, 'max': 385.5, 'sim': 0.78}
++6:36   lean 13 {'frames': 9371, 'p50': 6.65, 'p95': 50.16, 'p99': 83.21, 'mean': 16.52, 'over100': 64, 'max': 420.37, 'sim': 0.78}
++6:36 block 14: lean full
++6:59   lean 14 {'frames': 9339, 'p50': 6.54, 'p95': 49.37, 'p99': 79.79, 'mean': 15.97, 'over100': 46, 'max': 491.01, 'sim': 0.81}
++6:59   full 14 {'frames': 9297, 'p50': 6.59, 'p95': 53.86, 'p99': 89.5, 'mean': 16.97, 'over100': 67, 'max': 415.7, 'sim': 0.77}
++6:59 block 15: full lean
++7:23   full 15 {'frames': 8943, 'p50': 6.68, 'p95': 48.54, 'p99': 85.55, 'mean': 16.42, 'over100': 62, 'max': 435.63, 'sim': 0.83}
++7:23   lean 15 {'frames': 9308, 'p50': 6.73, 'p95': 53.43, 'p99': 99.27, 'mean': 17.46, 'over100': 91, 'max': 464.65, 'sim': 0.74}
++7:23 study done
++7:24 full 1 failed
++7:24 lean 1 failed
++7:24     lean 2  game 402-531  frames 7795  p50 8.1  p95 57.7  mean 20.5  >100 73  sim 0.75  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24 full 2 failed
++7:24     full 3  game 402-534  frames 7630  p50 9.8  p95 60.1  mean 21.4  >100 92  sim 0.74  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 3  game 407-535  frames 6624  p50 19.1  p95 61.9  mean 23.5  >100 81  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 4  game 410-558  frames 7353  p50 13.0  p95 57.9  mean 21.4  >100 71  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 4  game 408-543  frames 7475  p50 12.2  p95 58.6  mean 21.3  >100 73  sim 0.76  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 5  game 402-554  frames 8156  p50 8.5  p95 59.1  mean 20.0  >100 65  sim 0.74  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 5  game 411-547  frames 7764  p50 8.6  p95 61.4  mean 21.1  >100 108  sim 0.73  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 6  game 408-543  frames 8331  p50 7.9  p95 55.7  mean 19.1  >100 66  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 6  game 408-538  frames 7985  p50 9.1  p95 57.3  mean 20.2  >100 75  sim 0.75  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 7  game 407-564  frames 8629  p50 7.2  p95 53.6  mean 17.8  >100 53  sim 0.79  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 7  game 410-531  frames 6918  p50 18.4  p95 59.9  mean 22.3  >100 72  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24 lean 8 failed
++7:24     full 8  game 408-541  frames 9480  p50 6.6  p95 51.9  mean 16.9  >100 78  sim 0.75  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 9  game 410-532  frames 8779  p50 6.7  p95 53.6  mean 17.5  >100 77  sim 0.79  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 9  game 410-531  frames 9055  p50 6.7  p95 49.0  mean 16.2  >100 46  sim 0.82  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 10  game 408-546  frames 9431  p50 6.6  p95 51.2  mean 16.5  >100 68  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 10  game 412-545  frames 9706  p50 6.4  p95 50.1  mean 15.9  >100 58  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 11  game 411-550  frames 8870  p50 6.7  p95 50.9  mean 17.0  >100 63  sim 0.80  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 11  game 409-530  frames 9251  p50 6.6  p95 51.4  mean 16.6  >100 53  sim 0.79  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 12  game 410-544  frames 9631  p50 6.6  p95 50.6  mean 16.2  >100 64  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 12  game 402-522  frames 8731  p50 6.7  p95 51.0  mean 16.8  >100 65  sim 0.82  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 13  game 407-550  frames 9602  p50 6.5  p95 50.5  mean 16.2  >100 58  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 13  game 408-567  frames 9371  p50 6.6  p95 50.2  mean 16.5  >100 64  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 14  game 411-542  frames 9339  p50 6.5  p95 49.4  mean 16.0  >100 46  sim 0.81  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 14  game 408-546  frames 9297  p50 6.6  p95 53.9  mean 17.0  >100 67  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     full 15  game 410-548  frames 8943  p50 6.7  p95 48.5  mean 16.4  >100 62  sim 0.83  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean 15  game 408-553  frames 9308  p50 6.7  p95 53.4  mean 17.5  >100 91  sim 0.74  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++7:24     lean pooled healthy  runs 13  frames 110171  p50 7.4  p95 54.5  p99 93.1  mean 18.4  >100 903 (0.8%)  sim 0.77
++7:24     full pooled healthy  runs 13  frames 113283  p50 7.2  p95 53.8  p99 91.9  mean 17.9  >100 886 (0.8%)  sim 0.78
++7:24 run-level (each healthy run one sample; 95% intervals):
++7:24     lean n=13  mean 18.73+-1.64  p50 9.34+-2.74  p95 54.59+-2.86  p99 93.56+-6.54  over100 0.84+-0.17  sim 0.77+-0.02
++7:24     full n=13  mean 18.03+-1.19 (diff -0.69+-1.94)  p50 7.67+-1.06 (diff -1.67+-2.87)  p95 53.76+-2.31 (diff -0.83+-3.51)  p99 91.92+-4.45 (diff -1.64+-7.57)  over100 0.79+-0.11 (diff -0.05+-0.19)  sim 0.78+-0.02 (diff +0.00+-0.02)

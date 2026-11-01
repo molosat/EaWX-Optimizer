@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 254" role="img" aria-label="Stutters per minute by size and version" class="chart" xmlns="http://www.w3.org/2000/svg" width="680">
+<title>Stutters per minute by size and version</title>
+<style>
+:root {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7;
+  --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255, 255, 255, 0.10);
+  --accent: #3987e5; --plain: #d95926; --default: #199e70; --cand: #3987e5; --vanilla: #898781;
+  --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500; --c5: #d55181; --c6: #008300; --c0: #5c5b56;
+  --todo-bg: #3d3210; --todo-ink: #f5dc8a;
+}
+.chart { display: block; width: 100%; height: auto; overflow: visible; background: var(--surface); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+/* chart ink */
+.chart .grid { stroke: var(--grid); stroke-width: 1; }
+.chart .axis { stroke: var(--axis); stroke-width: 1; }
+.chart .tick { fill: var(--muted); font-variant-numeric: tabular-nums; }
+.chart .lbl { fill: var(--ink-2); }
+.chart .val { fill: var(--ink); font-variant-numeric: tabular-nums; }
+.chart .inbar { fill: #fff; }
+.chart .s-plain { fill: var(--plain); stroke: var(--plain); }
+.chart .s-default { fill: var(--default); stroke: var(--default); }
+.chart .s-cand { fill: var(--cand); stroke: var(--cand); }
+.chart .s-vanilla { fill: var(--vanilla); stroke: var(--vanilla); }
+.chart .s-cap { fill: var(--c5); stroke: var(--c5); }
+.chart path.s-plain, .chart path.s-default, .chart path.s-cand,
+.chart rect.s-plain, .chart rect.s-default, .chart rect.s-cand { stroke: none; }
+.chart .c0 { fill: var(--c0); } .chart .c1 { fill: var(--c1); } .chart .c2 { fill: var(--c2); }
+.chart .c3 { fill: var(--c3); } .chart .c4 { fill: var(--c4); } .chart .c5 { fill: var(--c5); }
+.chart .c6 { fill: var(--c6); }
+.chart .ring { stroke: var(--surface); stroke-width: 2; }
+.chart .wash { opacity: 0.24; stroke: none; }
+.chart .meanline { stroke: var(--ink); stroke-width: 2; stroke-linecap: round; }
+.chart .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart .trace { fill: none; stroke-width: 1.25; stroke-linejoin: round; }
+.chart .range { stroke-width: 2; stroke-linecap: round; opacity: 0.55; }
+.chart circle:hover, .chart rect:hover, .chart path:hover { opacity: 0.8; }
+</style>
+<rect x="18" y="5" width="10" height="10" rx="2" class="s-plain"/><text x="33.0" y="14.0" class="lbl" text-anchor="start" font-size="12">Plain TR</text><rect x="103.8" y="5" width="10" height="10" rx="2" class="s-default"/><text x="118.8" y="14.0" class="lbl" text-anchor="start" font-size="12">Core fixes</text><rect x="202.8" y="5" width="10" height="10" rx="2" class="s-cand"/><text x="217.8" y="14.0" class="lbl" text-anchor="start" font-size="12">Full fix</text><line x1="18" x2="168" y1="200" y2="200" class="axis"/><path d="M38.0,200.0 V108.8 Q38.0,104.8 42.0,104.8 H58.0 Q62.0,104.8 62.0,108.8 V200.0 Z" class="s-plain"><title>Plain TR: 321.5 frames over 50 ms per minute</title></path><text x="50.0" y="98.8" class="val" text-anchor="middle" font-size="12" font-weight="600">322</text><path d="M84.0,200.0 V137.7 Q84.0,133.7 88.0,133.7 H104.0 Q108.0,133.7 108.0,137.7 V200.0 Z" class="s-default"><title>Core fixes: 224.0 frames over 50 ms per minute</title></path><text x="96.0" y="127.7" class="val" text-anchor="middle" font-size="12" font-weight="600">224</text><path d="M130.0,200.0 V166.4 Q130.0,162.4 134.0,162.4 H150.0 Q154.0,162.4 154.0,166.4 V200.0 Z" class="s-cand"><title>Full fix: 127.1 frames over 50 ms per minute</title></path><text x="142.0" y="156.4" class="val" text-anchor="middle" font-size="12" font-weight="600">127</text><text x="93.0" y="220.0" class="lbl" text-anchor="middle" font-size="13" font-weight="600">over 50 ms</text><text x="93.0" y="238.0" class="tick" text-anchor="middle" font-size="11">per minute of play</text><line x1="188" x2="338" y1="200" y2="200" class="axis"/><path d="M208.0,200.0 V93.2 Q208.0,89.2 212.0,89.2 H228.0 Q232.0,89.2 232.0,93.2 V200.0 Z" class="s-plain"><title>Plain TR: 37.4 frames over 100 ms per minute</title></path><text x="220.0" y="83.2" class="val" text-anchor="middle" font-size="12" font-weight="600">37</text><path d="M254.0,200.0 V91.1 Q254.0,87.1 258.0,87.1 H274.0 Q278.0,87.1 278.0,91.1 V200.0 Z" class="s-default"><title>Core fixes: 38.1 frames over 100 ms per minute</title></path><text x="266.0" y="81.1" class="val" text-anchor="middle" font-size="12" font-weight="600">38</text><path d="M300.0,200.0 V148.8 Q300.0,144.8 304.0,144.8 H320.0 Q324.0,144.8 324.0,148.8 V200.0 Z" class="s-cand"><title>Full fix: 18.7 frames over 100 ms per minute</title></path><text x="312.0" y="138.8" class="val" text-anchor="middle" font-size="12" font-weight="600">19</text><text x="263.0" y="220.0" class="lbl" text-anchor="middle" font-size="13" font-weight="600">over 100 ms</text><text x="263.0" y="238.0" class="tick" text-anchor="middle" font-size="11">per minute of play</text><line x1="358" x2="508" y1="200" y2="200" class="axis"/><path d="M378.0,200.0 V99.5 Q378.0,95.5 382.0,95.5 H398.0 Q402.0,95.5 402.0,99.5 V200.0 Z" class="s-plain"><title>Plain TR: 3.5 frames over 250 ms per minute</title></path><text x="390.0" y="89.5" class="val" text-anchor="middle" font-size="12" font-weight="600">3.5</text><path d="M424.0,200.0 V116.3 Q424.0,112.3 428.0,112.3 H444.0 Q448.0,112.3 448.0,116.3 V200.0 Z" class="s-default"><title>Core fixes: 3.0 frames over 250 ms per minute</title></path><text x="436.0" y="106.3" class="val" text-anchor="middle" font-size="12" font-weight="600">3.0</text><path d="M470.0,200.0 V189.6 Q470.0,185.6 474.0,185.6 H490.0 Q494.0,185.6 494.0,189.6 V200.0 Z" class="s-cand"><title>Full fix: 0.5 frames over 250 ms per minute</title></path><text x="482.0" y="179.6" class="val" text-anchor="middle" font-size="12" font-weight="600">0.5</text><text x="433.0" y="220.0" class="lbl" text-anchor="middle" font-size="13" font-weight="600">over 250 ms</text><text x="433.0" y="238.0" class="tick" text-anchor="middle" font-size="11">per minute of play</text><line x1="528" x2="678" y1="200" y2="200" class="axis"/><path d="M548.0,200.0 V111.1 Q548.0,107.1 552.0,107.1 H568.0 Q572.0,107.1 572.0,111.1 V200.0 Z" class="s-plain"><title>Plain TR: 1.3 frames over 1 second per minute</title></path><text x="560.0" y="101.1" class="val" text-anchor="middle" font-size="12" font-weight="600">1.3</text><path d="M594.0,200.0 V200.0 Q594.0,200.0 594.0,200.0 H618.0 Q618.0,200.0 618.0,200.0 V200.0 Z" class="s-default"><title>Core fixes: 0.0 frames over 1 second per minute</title></path><text x="606.0" y="194.0" class="val" text-anchor="middle" font-size="12" font-weight="600">0.0</text><path d="M640.0,200.0 V200.0 Q640.0,200.0 640.0,200.0 H664.0 Q664.0,200.0 664.0,200.0 V200.0 Z" class="s-cand"><title>Full fix: 0.0 frames over 1 second per minute</title></path><text x="652.0" y="194.0" class="val" text-anchor="middle" font-size="12" font-weight="600">0.0</text><text x="603.0" y="220.0" class="lbl" text-anchor="middle" font-size="13" font-weight="600">over 1 second</text><text x="603.0" y="238.0" class="tick" text-anchor="middle" font-size="11">per minute of play</text></svg>

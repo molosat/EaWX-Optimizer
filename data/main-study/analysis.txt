@@ -1,0 +1,79 @@
+Every run, in order:
+      plain  1  mean  35.11  p95  81.36  held    51 s  clicks  4  other CPU  16.1%  cursor moved False
+    default  1  mean  19.11  p95  56.71  held    77 s  clicks  6  other CPU  17.6%  cursor moved False
+  candidate  1  mean  10.78  p95  37.25  held     4 s  clicks  2  other CPU  15.2%  cursor moved False
+      plain  2  mean  30.39  p95  78.78  held   105 s  clicks 10  other CPU  17.8%  cursor moved False
+  candidate  2  mean  11.37  p95  39.63  held    55 s  clicks  6  other CPU  15.0%  cursor moved False
+    default  2  mean  18.22  p95  54.71  held    51 s  clicks  4  other CPU  16.3%  cursor moved False
+    default  3  mean  17.46  p95  53.65  held   100 s  clicks  9  other CPU  15.8%  cursor moved False
+      plain  3  mean  28.85  p95  72.07  held    53 s  clicks  5  other CPU  14.7%  cursor moved False
+  candidate  3  mean  13.17  p95  43.98  held     2 s  clicks  1  other CPU  16.6%  cursor moved False
+    default  4  mean  17.18  p95  55.23  held   105 s  clicks  9  other CPU  16.1%  cursor moved False
+  candidate  4  mean  12.30  p95  42.45  held   104 s  clicks 10  other CPU  15.9%  cursor moved False
+      plain  4  mean  24.27  p95  65.74  held   203 s  clicks 17  other CPU  15.2%  cursor moved False
+  candidate  5  mean  12.23  p95  41.76  held    53 s  clicks  6  other CPU  20.0%  cursor moved False
+      plain  5  mean  28.96  p95  76.91  held   104 s  clicks  9  other CPU  16.7%  cursor moved False
+    default  5  mean  20.21  p95  62.90  held    28 s  clicks  3  other CPU  15.1%  cursor moved False
+  candidate  6  mean  12.16  p95  42.23  held    77 s  clicks  6  other CPU  14.9%  cursor moved False
+    default  6  mean  19.52  p95  56.79  held   103 s  clicks  9  other CPU  24.0%  cursor moved False
+      plain  6  mean  30.06  p95  72.48  held   103 s  clicks  8  other CPU  17.2%  cursor moved False
+      plain  7  mean  28.12  p95  70.87  held   103 s  clicks  9  other CPU  15.4%  cursor moved False
+    default  7  mean  17.99  p95  55.13  held    53 s  clicks  5  other CPU  16.1%  cursor moved False
+  candidate  7  mean  12.75  p95  43.53  held   150 s  clicks 13  other CPU  15.8%  cursor moved False
+    default  8  mean  20.03  p95  57.27  held    75 s  clicks  6  other CPU  15.3%  cursor moved False
+  candidate  8  mean  13.59  p95  45.37  held   102 s  clicks  9  other CPU  15.5%  cursor moved False
+      plain  8  mean  31.62  p95  77.12  held   107 s  clicks 10  other CPU  17.9%  cursor moved False
+  candidate  9  mean  13.27  p95  43.62  held    53 s  clicks  5  other CPU  16.6%  cursor moved False
+      plain  9  mean  29.81  p95  66.31  held     2 s  clicks  1  other CPU  15.1%  cursor moved False
+    default  9  mean  16.23  p95  49.50  held   128 s  clicks 11  other CPU  15.1%  cursor moved False
+      plain 10  mean  27.03  p95  72.86  held   104 s  clicks  9  other CPU  15.9%  cursor moved False
+  candidate 10  mean  12.27  p95  43.43  held   103 s  clicks  8  other CPU  15.2%  cursor moved False
+    default 10  mean  16.83  p95  51.70  held    51 s  clicks  4  other CPU  14.7%  cursor moved False
+
+Excluded runs: 0
+
+Run means by arm (95% interval):
+      plain n=10  mean 29.42 +- 2.04  p95 73.45 +- 3.67  p99 121.50 +- 7.75  over100_pct 1.85 +- 0.31  sim 0.69 +- 0.02
+    default n=10  mean 18.28 +- 0.99  p95 55.36 +- 2.56  p99 107.19 +- 5.36  over100_pct 1.17 +- 0.13  sim 0.76 +- 0.01
+  candidate n=10  mean 12.39 +- 0.62  p95 42.32 +- 1.68  p99 71.92 +- 3.47  over100_pct 0.39 +- 0.08  sim 0.82 +- 0.01
+
+Primary: mean frame time, Welch, Holm over the three contrasts (alpha 0.05):
+  candidate - plain: -17.03 ms, 95% CI [-19.12, -14.95], t = -18.08, df = 10.6, p = 2.53e-09, Holm p = 7.58e-09, reject H0
+  default - plain: -11.15 ms, 95% CI [-13.31, -8.98], t = -11.12, df = 13.0, p = 5.10e-08, Holm p = 5.10e-08, reject H0
+  candidate - default: -5.89 ms, 95% CI [-6.99, -4.79], t = -11.41, df = 15.1, p = 8.23e-09, Holm p = 1.65e-08, reject H0
+
+Secondary endpoints (unadjusted 95% intervals, supportive):
+          p95  candidate - plain: -31.12 [-34.99, -27.26]
+          p95  default - plain: -18.09 [-22.28, -13.90]
+          p95  candidate - default: -13.04 [-15.92, -10.16]
+          p99  candidate - plain: -49.58 [-57.72, -41.44]
+          p99  default - plain: -14.31 [-23.14, -5.48]
+          p99  candidate - default: -35.27 [-41.27, -29.27]
+  over100_pct  candidate - plain: -1.46 [-1.78, -1.15]
+  over100_pct  default - plain: -0.68 [-1.01, -0.36]
+  over100_pct  candidate - default: -0.78 [-0.93, -0.63]
+          sim  candidate - plain: +0.14 [0.11, 0.16]
+          sim  default - plain: +0.07 [0.05, 0.09]
+          sim  candidate - default: +0.07 [0.05, 0.08]
+
+Planets per owner at window end, mean (min-max) per arm:
+  faction                          plain           default         candidate
+  CHISS                        8.0 (8-8)         8.0 (8-8)         8.0 (8-8)
+  CORELLIA                     4.0 (4-4)         4.0 (4-4)         4.0 (4-4)
+  CORPORATE_SECTOR             5.9 (5-6)         6.1 (5-8)         6.0 (5-7)
+  EMPIRE                    28.0 (26-30)      28.5 (27-30)      28.7 (27-30)
+  EMPIREOFTHEHAND             9.2 (8-10)        9.6 (9-10)        9.4 (9-10)
+  ERIADU_AUTHORITY            7.4 (6-10)         7.0 (5-9)         7.0 (4-9)
+  GREATER_MALDROOD           12.0 (9-14)      12.4 (11-14)       12.1 (8-15)
+  HAPES_CONSORTIUM             5.1 (5-6)         5.0 (5-5)         5.0 (5-5)
+  HUTT_CARTELS                8.7 (7-11)        8.6 (7-10)        7.8 (6-10)
+  INDEPENDENT_FORCES        11.7 (11-13)      11.0 (10-12)      11.2 (10-13)
+  KILLIK_HIVES                 6.0 (6-6)         6.0 (6-6)         6.0 (6-6)
+  MANDALORIANS                 1.0 (1-1)         0.7 (0-1)         0.9 (0-1)
+  NEUTRAL                      2.5 (2-3)         2.7 (2-3)         2.4 (2-3)
+  PENTASTAR                  10.0 (9-11)        9.8 (9-10)        9.6 (9-10)
+  REBEL                     17.7 (15-19)      18.0 (14-21)      18.5 (16-21)
+  SSIRUUVI_IMPERIUM            6.6 (5-7)         7.0 (7-7)         6.7 (6-7)
+  WARLORDS                    9.8 (9-10)        9.5 (9-10)        9.6 (9-10)
+  YEVETHA                      2.0 (2-2)         2.0 (2-2)         2.0 (2-2)
+  ZSINJ_EMPIRE              16.4 (13-18)      16.1 (14-19)      17.1 (14-21)

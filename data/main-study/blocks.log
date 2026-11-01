@@ -1,0 +1,80 @@
++0:00 waiting for evening and 20 idle minutes; 10 blocks
++1:59 starting; idle 462 min
++1:59 block 1: plain default candidate
++2:34   plain 1 {'frames': 5049, 'p50': 30.18, 'p95': 81.36, 'p99': 139.35, 'mean': 35.11, 'over100': 138, 'max': 2340.44, 'sim': 0.68}
++2:34   default 1 {'frames': 8292, 'p50': 5.68, 'p95': 56.71, 'p99': 117.16, 'mean': 19.11, 'over100': 108, 'max': 347.81, 'sim': 0.76}
++2:34   candidate 1 {'frames': 13259, 'p50': 5.27, 'p95': 37.25, 'p99': 60.92, 'mean': 10.78, 'over100': 25, 'max': 243.35, 'sim': 0.85}
++2:34 block 2: plain candidate default
++3:11   plain 2 {'frames': 5973, 'p50': 27.14, 'p95': 78.78, 'p99': 129.75, 'mean': 30.39, 'over100': 128, 'max': 1722.47, 'sim': 0.67}
++3:11   candidate 2 {'frames': 12622, 'p50': 5.23, 'p95': 39.63, 'p99': 68.89, 'mean': 11.37, 'over100': 46, 'max': 247.08, 'sim': 0.84}
++3:11   default 2 {'frames': 8639, 'p50': 5.69, 'p95': 54.71, 'p99': 109.77, 'mean': 18.22, 'over100': 105, 'max': 536.64, 'sim': 0.77}
++3:11 block 3: default plain candidate
++3:47   default 3 {'frames': 9136, 'p50': 5.55, 'p95': 53.65, 'p99': 102.76, 'mean': 17.46, 'over100': 97, 'max': 365.34, 'sim': 0.76}
++3:47   plain 3 {'frames': 5992, 'p50': 26.9, 'p95': 72.07, 'p99': 120.35, 'mean': 28.85, 'over100': 99, 'max': 1814.32, 'sim': 0.7}
++3:47   candidate 3 {'frames': 10984, 'p50': 5.69, 'p95': 43.98, 'p99': 75.43, 'mean': 13.17, 'over100': 38, 'max': 293.64, 'sim': 0.83}
++3:47 block 4: default candidate plain
++4:27   default 4 {'frames': 9600, 'p50': 5.41, 'p95': 55.23, 'p99': 103.19, 'mean': 17.18, 'over100': 103, 'max': 326.26, 'sim': 0.73}
++4:27   candidate 4 {'frames': 12389, 'p50': 5.4, 'p95': 42.45, 'p99': 75.98, 'mean': 12.3, 'over100': 67, 'max': 292.49, 'sim': 0.79}
++4:27   plain 4 {'frames': 7408, 'p50': 11.12, 'p95': 65.74, 'p99': 108.23, 'mean': 24.27, 'over100': 106, 'max': 1741.87, 'sim': 0.67}
++4:27 block 5: candidate plain default
++5:05   candidate 5 {'frames': 12044, 'p50': 5.42, 'p95': 41.76, 'p99': 70.17, 'mean': 12.23, 'over100': 41, 'max': 247.39, 'sim': 0.82}
++5:05   plain 5 {'frames': 6365, 'p50': 25.78, 'p95': 76.91, 'p99': 127.64, 'mean': 28.96, 'over100': 117, 'max': 1873.03, 'sim': 0.66}
++5:05   default 5 {'frames': 8148, 'p50': 5.73, 'p95': 62.9, 'p99': 114.3, 'mean': 20.21, 'over100': 117, 'max': 555.05, 'sim': 0.73}
++5:05 block 6: candidate default plain
++5:44   candidate 6 {'frames': 11837, 'p50': 5.36, 'p95': 42.23, 'p99': 70.06, 'mean': 12.16, 'over100': 37, 'max': 258.48, 'sim': 0.84}
++5:44   default 6 {'frames': 8316, 'p50': 6.06, 'p95': 56.79, 'p99': 113.4, 'mean': 19.52, 'over100': 114, 'max': 368.45, 'sim': 0.74}
++5:44   plain 6 {'frames': 5732, 'p50': 27.85, 'p95': 72.48, 'p99': 120.19, 'mean': 30.06, 'over100': 93, 'max': 2035.31, 'sim': 0.7}
++5:44 block 7: plain default candidate
++6:23   plain 7 {'frames': 6071, 'p50': 26.28, 'p95': 70.87, 'p99': 117.11, 'mean': 28.12, 'over100': 104, 'max': 1715.86, 'sim': 0.71}
++6:23   default 7 {'frames': 8937, 'p50': 5.78, 'p95': 55.13, 'p99': 105.24, 'mean': 17.99, 'over100': 97, 'max': 435.83, 'sim': 0.75}
++6:23   candidate 7 {'frames': 11540, 'p50': 5.37, 'p95': 43.53, 'p99': 74.77, 'mean': 12.75, 'over100': 49, 'max': 266.89, 'sim': 0.82}
++6:23 block 8: default candidate plain
++7:01   default 8 {'frames': 7889, 'p50': 6.24, 'p95': 57.27, 'p99': 113.29, 'mean': 20.03, 'over100': 104, 'max': 404.29, 'sim': 0.77}
++7:01   candidate 8 {'frames': 11146, 'p50': 5.64, 'p95': 45.37, 'p99': 77.93, 'mean': 13.59, 'over100': 61, 'max': 303.14, 'sim': 0.8}
++7:01   plain 8 {'frames': 5767, 'p50': 28.4, 'p95': 77.12, 'p99': 133.39, 'mean': 31.62, 'over100': 137, 'max': 1873.91, 'sim': 0.66}
++7:01 block 9: candidate plain default
++7:38   candidate 9 {'frames': 11241, 'p50': 5.9, 'p95': 43.62, 'p99': 71.9, 'mean': 13.27, 'over100': 43, 'max': 274.64, 'sim': 0.81}
++7:38   plain 9 {'frames': 5575, 'p50': 28.3, 'p95': 66.31, 'p99': 108.24, 'mean': 29.81, 'over100': 80, 'max': 1727.23, 'sim': 0.73}
++7:38   default 9 {'frames': 9608, 'p50': 5.57, 'p95': 49.5, 'p99': 96.68, 'mean': 16.23, 'over100': 87, 'max': 374.41, 'sim': 0.77}
++7:38 block 10: plain candidate default
++8:15   plain 10 {'frames': 6267, 'p50': 25.86, 'p95': 72.86, 'p99': 110.76, 'mean': 27.03, 'over100': 98, 'max': 1297.5, 'sim': 0.71}
++8:15   candidate 10 {'frames': 12069, 'p50': 5.3, 'p95': 43.43, 'p99': 73.16, 'mean': 12.27, 'over100': 52, 'max': 239.27, 'sim': 0.82}
++8:15   default 10 {'frames': 9088, 'p50': 5.37, 'p95': 51.7, 'p99': 96.12, 'mean': 16.83, 'over100': 83, 'max': 369.99, 'sim': 0.78}
++8:15 study done
++8:15    plain 1  game 407-534  frames 5049  p50 30.2  p95 81.4  mean 35.1  >100 138  sim 0.68  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15  default 1  game 410-542  frames 8292  p50 5.7  p95 56.7  mean 19.1  >100 108  sim 0.76  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15 candidate 1  game 410-531  frames 13259  p50 5.3  p95 37.2  mean 10.8  >100 25  sim 0.85  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 2  game 407-543  frames 5973  p50 27.1  p95 78.8  mean 30.4  >100 128  sim 0.67  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15 candidate 2  game 410-540  frames 12622  p50 5.2  p95 39.6  mean 11.4  >100 46  sim 0.84  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 2  game 408-537  frames 8639  p50 5.7  p95 54.7  mean 18.2  >100 105  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 3  game 409-542  frames 9136  p50 5.5  p95 53.7  mean 17.5  >100 97  sim 0.76  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 3  game 407-533  frames 5992  p50 26.9  p95 72.1  mean 28.8  >100 99  sim 0.70  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15 candidate 3  game 409-530  frames 10984  p50 5.7  p95 44.0  mean 13.2  >100 38  sim 0.83  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 4  game 410-547  frames 9600  p50 5.4  p95 55.2  mean 17.2  >100 103  sim 0.73  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15 candidate 4  game 402-541  frames 12389  p50 5.4  p95 42.5  mean 12.3  >100 67  sim 0.79  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 4  game 407-555  frames 7408  p50 11.1  p95 65.7  mean 24.3  >100 106  sim 0.67  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15 candidate 5  game 410-537  frames 12044  p50 5.4  p95 41.8  mean 12.2  >100 41  sim 0.82  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 5  game 404-541  frames 6365  p50 25.8  p95 76.9  mean 29.0  >100 117  sim 0.66  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15  default 5  game 408-532  frames 8148  p50 5.7  p95 62.9  mean 20.2  >100 117  sim 0.73  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15 candidate 6  game 413-549  frames 11837  p50 5.4  p95 42.2  mean 12.2  >100 37  sim 0.84  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 6  game 402-540  frames 8316  p50 6.1  p95 56.8  mean 19.5  >100 114  sim 0.74  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 6  game 407-546  frames 5732  p50 27.9  p95 72.5  mean 30.1  >100 93  sim 0.70  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15    plain 7  game 407-540  frames 6071  p50 26.3  p95 70.9  mean 28.1  >100 104  sim 0.71  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15  default 7  game 408-535  frames 8937  p50 5.8  p95 55.1  mean 18.0  >100 97  sim 0.75  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15 candidate 7  game 409-551  frames 11540  p50 5.4  p95 43.5  mean 12.7  >100 49  sim 0.82  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 8  game 408-538  frames 7889  p50 6.2  p95 57.3  mean 20.0  >100 104  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15 candidate 8  game 411-548  frames 11146  p50 5.6  p95 45.4  mean 13.6  >100 61  sim 0.80  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 8  game 402-538  frames 5767  p50 28.4  p95 77.1  mean 31.6  >100 137  sim 0.66  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15 candidate 9  game 409-539  frames 11241  p50 5.9  p95 43.6  mean 13.3  >100 43  sim 0.81  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 9  game 407-528  frames 5575  p50 28.3  p95 66.3  mean 29.8  >100 80  sim 0.73  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15  default 9  game 410-552  frames 9608  p50 5.6  p95 49.5  mean 16.2  >100 87  sim 0.77  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain 10  game 407-540  frames 6267  p50 25.9  p95 72.9  mean 27.0  >100 98  sim 0.71  health ok: 12 stores, layer Lua none, 0 phases, evaluator line 52
++8:15 candidate 10  game 408-548  frames 12069  p50 5.3  p95 43.4  mean 12.3  >100 52  sim 0.82  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15  default 10  game 409-538  frames 9088  p50 5.4  p95 51.7  mean 16.8  >100 83  sim 0.78  health ok: 12 stores, layer Lua all, 12 phases, evaluator line 52
++8:15    plain pooled healthy  runs 10  frames 60199  p50 26.9  p95 74.0  p99 121.0  mean 29.2  >100 1100 (1.8%)  sim 0.69
++8:15  default pooled healthy  runs 10  frames 87653  p50 5.7  p95 55.1  p99 106.7  mean 18.2  >100 1015 (1.2%)  sim 0.76
++8:15 candidate pooled healthy  runs 10  frames 119131  p50 5.4  p95 42.5  p99 71.9  mean 12.3  >100 459 (0.4%)  sim 0.82
++8:15 run-level (each healthy run one sample; 95% intervals):
++8:15    plain n=10  mean 29.42+-2.04  p50 25.78+-3.81  p95 73.45+-3.67  p99 121.50+-7.75  over100 1.85+-0.31  sim 0.69+-0.02
++8:15  default n=10  mean 18.28+-0.99 (diff -11.15+-2.18)  p50 5.71+-0.19 (diff -20.07+-3.81)  p95 55.36+-2.56 (diff -18.09+-4.22)  p99 107.19+-5.36 (diff -14.31+-8.87)  over100 1.17+-0.13 (diff -0.68+-0.32)  sim 0.76+-0.01 (diff +0.07+-0.02)
++8:15 candidate n=10  mean 12.39+-0.62 (diff -17.03+-2.10)  p50 5.46+-0.15 (diff -20.32+-3.81)  p95 42.32+-1.68 (diff -31.12+-3.89)  p99 71.92+-3.46 (diff -49.58+-8.17)  over100 0.39+-0.08 (diff -1.46+-0.31)  sim 0.82+-0.01 (diff +0.14+-0.02)
